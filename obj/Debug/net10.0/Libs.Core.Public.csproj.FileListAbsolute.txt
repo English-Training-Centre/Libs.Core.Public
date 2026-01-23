@@ -1,0 +1,16 @@
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/bin/Debug/net10.0/Libs.Core.Public.deps.json
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/bin/Debug/net10.0/Libs.Core.Public.dll
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/bin/Debug/net10.0/Libs.Core.Public.pdb
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/bin/Debug/net10.0/Libs.Core.Shared.dll
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/bin/Debug/net10.0/Libs.Core.Shared.pdb
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/obj/Debug/net10.0/Libs.Core.Public.csproj.AssemblyReference.cache
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/obj/Debug/net10.0/Libs.Core.Public.GeneratedMSBuildEditorConfig.editorconfig
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/obj/Debug/net10.0/Libs.Core.Public.AssemblyInfoInputs.cache
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/obj/Debug/net10.0/Libs.Core.Public.AssemblyInfo.cs
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/obj/Debug/net10.0/Libs.Core.Public.csproj.CoreCompileInputs.cache
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/obj/Debug/net10.0/Libs.Core.Public.sourcelink.json
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/obj/Debug/net10.0/Libs.Cor.27798305.Up2Date
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/obj/Debug/net10.0/Libs.Core.Public.dll
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/obj/Debug/net10.0/refint/Libs.Core.Public.dll
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/obj/Debug/net10.0/Libs.Core.Public.pdb
+/home/ramadan/Documents/Projects/EnglishTrainingCenter/v3.0.2/etc-backend/Libs.Core.Public/obj/Debug/net10.0/ref/Libs.Core.Public.dll

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "Libs.Core.Public.Protos.UserService";
+
+package roles;
+
+import "google/protobuf/empty.proto";
+
+service RolesGrpc {
+  rpc GetAll (google.protobuf.Empty) returns (GrpcListRoleGetAllResponse);
+}
+
+message GrpcListRoleGetAllResponse {
+  repeated GrpcRoleGetAllResponse roles = 1;
+}
+
+message GrpcRoleGetAllResponse {
+  string id = 1;
+  string name = 2;
+}
