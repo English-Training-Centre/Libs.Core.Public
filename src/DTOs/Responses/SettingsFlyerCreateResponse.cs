@@ -3,8 +3,8 @@ namespace Libs.Core.Public.src.DTOs.Responses;
 public sealed record SettingsFlyerCreateResponse
 {
     public Guid Id { get; set; }
-    public string ImageUrl { get; set; } = default!;
-    public decimal EnrolmentFee { get; set; }
+    public string ImageUrl { get; set; } = string.Empty;
+    public long EnrolmentFee { get; set; }
     public bool IsActive { get; set; }
     public DateTime CreatedAt { get; set; }
 
@@ -13,12 +13,12 @@ public sealed record SettingsFlyerCreateResponse
 
 public sealed record MonthlyTuitionResponse
 {
-    public string Package { get; set; } = default!;
-    public string Modality { get; set; } = default!;
+    public string Package { get; set; } = string.Empty;
+    public string Modality { get; set; } = string.Empty;
 
-    public decimal LevelA { get; set; }
-    public decimal LevelAA { get; set; }
-    public decimal LevelB { get; set; }
-    public decimal LevelBB { get; set; }
-    public decimal LevelC { get; set; }
+    public long LevelA { get; set; }
+    public long LevelAA { get; set; }
+    public long LevelB { get; set; }
+    public long LevelBB { get; set; }
+    public long LevelC { get; set; }
 }

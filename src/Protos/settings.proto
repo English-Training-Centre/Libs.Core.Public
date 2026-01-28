@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+option csharp_namespace = "Libs.Core.Public.Protos.Settings.Service";
+
+package settings;
+
+import "google/protobuf/empty.proto"; 
+import "google/protobuf/timestamp.proto";
+
+service SettingsGrpc {
+  rpc CreateFlyer(GrpcSettingsFlyerCreateRequest) returns (GrpcSettingsResponseDTO);
+  rpc GetAllFlyer(google.protobuf.Empty) returns (GrpcSettingsFlyerGetAllResponse);
+}
+
+
+// Responses
+
+message GrpcSettingsResponseDTO {
+  bool is_success = 1;
+  string message = 2;
+}
+
+message GrpcSettingsFlyerMonthlyTuitionResponse {
+  string package = 1;
+  string modality = 2;
+  int64 level_a = 3;
+  int64 level_a_a = 4;
+  int64 level_b = 5;
+  int64 level_b_b = 6;
+  int64 level_c = 7;
+}
+
+message GrpcSettingsFlyerGetAllResponse {
+    string id = 1;
+    string image_url = 2;
+    int64 enrolment_fee = 3;
+    bool is_active = 4;
+    google.protobuf.Timestamp created_at = 5;
+    repeated GrpcSettingsFlyerMonthlyTuitionResponse monthly_tuitions = 6;
+}
+
+
+// Requests
+
+message GrpcSettingsFlyerCreateRequest {
+  string image_url = 1;
+  int64 enrolment_fee = 2;
+
+  int64 on_site_intensive_a = 3;
+  int64 on_site_intensive_a_a = 4;
+  int64 on_site_intensive_b = 5;
+  int64 on_site_intensive_b_b = 6;
+  int64 on_site_intensive_c = 7;
+
+  int64 on_site_private_a = 8;
+  int64 on_site_private_a_a = 9;
+  int64 on_site_private_b = 10;
+  int64 on_site_private_b_b = 11;
+  int64 on_site_private_c = 12;
+
+  int64 on_site_regular_a = 13;
+  int64 on_site_regular_a_a = 14;
+  int64 on_site_regular_b = 15;
+  int64 on_site_regular_b_b = 16;
+  int64 on_site_regular_c = 17;
+
+  int64 online_intensive_a = 18;
+  int64 online_intensive_a_a = 19;
+  int64 online_intensive_b = 20;
+  int64 online_intensive_b_b = 21;
+  int64 online_intensive_c = 22;
+
+  int64 online_private_a = 23;
+  int64 online_private_a_a = 24;
+  int64 online_private_b = 25;
+  int64 online_private_b_b = 26;
+  int64 online_private_c = 27;
+
+  int64 online_regular_a = 28;
+  int64 online_regular_a_a = 29;
+  int64 online_regular_b = 30;
+  int64 online_regular_b_b = 31;
+  int64 online_regular_c = 32;
+}

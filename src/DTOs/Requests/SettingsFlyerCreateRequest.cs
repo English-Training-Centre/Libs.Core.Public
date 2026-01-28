@@ -1,10 +1,8 @@
-using Microsoft.AspNetCore.Http;
-
 namespace Libs.Core.Public.src.DTOs.Requests;
 
 public sealed record SettingsFlyerCreateRequest
 (
-    IFormFile Image,
+    string ImageUrl,
     long EnrolmentFee,
 
     // On-Site
