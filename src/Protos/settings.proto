@@ -9,6 +9,7 @@ import "google/protobuf/timestamp.proto";
 
 service SettingsGrpc {
   rpc CreateFlyer(GrpcSettingsFlyerCreateRequest) returns (GrpcSettingsResponseDTO);
+  rpc GetCardFlyer(google.protobuf.Empty) returns (GrpcSettingsFlyerGetAllCardResponse);
   rpc GetAllFlyer(google.protobuf.Empty) returns (GrpcSettingsFlyerGetAllResponse);
 }
 
@@ -43,6 +44,18 @@ message GrpcSettingsFlyerGetResponse {
 
 message GrpcSettingsFlyerGetAllResponse {    
     repeated GrpcSettingsFlyerGetResponse flyers = 1;
+}
+
+message GrpcSettingsFlyerGetCardResponse {
+    string id = 1;
+    string image_url = 2;
+    int64 enrolment_fee = 3;
+    bool is_active = 4;
+    google.protobuf.Timestamp created_at = 5;
+}
+
+message GrpcSettingsFlyerGetAllCardResponse {    
+    repeated GrpcSettingsFlyerGetCardResponse flyers = 1;
 }
 
 

@@ -38,33 +38,40 @@ namespace Libs.Core.Public.Protos.Settings.Service {
             "eV90dWl0aW9ucxgGIAMoCzIxLnNldHRpbmdzLkdycGNTZXR0aW5nc0ZseWVy",
             "TW9udGhseVR1aXRpb25SZXNwb25zZSJZCh9HcnBjU2V0dGluZ3NGbHllckdl",
             "dEFsbFJlc3BvbnNlEjYKBmZseWVycxgBIAMoCzImLnNldHRpbmdzLkdycGNT",
-            "ZXR0aW5nc0ZseWVyR2V0UmVzcG9uc2UikQcKHkdycGNTZXR0aW5nc0ZseWVy",
-            "Q3JlYXRlUmVxdWVzdBIRCglpbWFnZV91cmwYASABKAkSFQoNZW5yb2xtZW50",
-            "X2ZlZRgCIAEoAxIbChNvbl9zaXRlX2ludGVuc2l2ZV9hGAMgASgDEh0KFW9u",
-            "X3NpdGVfaW50ZW5zaXZlX2FfYRgEIAEoAxIbChNvbl9zaXRlX2ludGVuc2l2",
-            "ZV9iGAUgASgDEh0KFW9uX3NpdGVfaW50ZW5zaXZlX2JfYhgGIAEoAxIbChNv",
-            "bl9zaXRlX2ludGVuc2l2ZV9jGAcgASgDEhkKEW9uX3NpdGVfcHJpdmF0ZV9h",
-            "GAggASgDEhsKE29uX3NpdGVfcHJpdmF0ZV9hX2EYCSABKAMSGQoRb25fc2l0",
-            "ZV9wcml2YXRlX2IYCiABKAMSGwoTb25fc2l0ZV9wcml2YXRlX2JfYhgLIAEo",
-            "AxIZChFvbl9zaXRlX3ByaXZhdGVfYxgMIAEoAxIZChFvbl9zaXRlX3JlZ3Vs",
-            "YXJfYRgNIAEoAxIbChNvbl9zaXRlX3JlZ3VsYXJfYV9hGA4gASgDEhkKEW9u",
-            "X3NpdGVfcmVndWxhcl9iGA8gASgDEhsKE29uX3NpdGVfcmVndWxhcl9iX2IY",
-            "ECABKAMSGQoRb25fc2l0ZV9yZWd1bGFyX2MYESABKAMSGgoSb25saW5lX2lu",
-            "dGVuc2l2ZV9hGBIgASgDEhwKFG9ubGluZV9pbnRlbnNpdmVfYV9hGBMgASgD",
-            "EhoKEm9ubGluZV9pbnRlbnNpdmVfYhgUIAEoAxIcChRvbmxpbmVfaW50ZW5z",
-            "aXZlX2JfYhgVIAEoAxIaChJvbmxpbmVfaW50ZW5zaXZlX2MYFiABKAMSGAoQ",
-            "b25saW5lX3ByaXZhdGVfYRgXIAEoAxIaChJvbmxpbmVfcHJpdmF0ZV9hX2EY",
-            "GCABKAMSGAoQb25saW5lX3ByaXZhdGVfYhgZIAEoAxIaChJvbmxpbmVfcHJp",
-            "dmF0ZV9iX2IYGiABKAMSGAoQb25saW5lX3ByaXZhdGVfYxgbIAEoAxIYChBv",
-            "bmxpbmVfcmVndWxhcl9hGBwgASgDEhoKEm9ubGluZV9yZWd1bGFyX2FfYRgd",
-            "IAEoAxIYChBvbmxpbmVfcmVndWxhcl9iGB4gASgDEhoKEm9ubGluZV9yZWd1",
-            "bGFyX2JfYhgfIAEoAxIYChBvbmxpbmVfcmVndWxhcl9jGCAgASgDMrwBCgxT",
-            "ZXR0aW5nc0dycGMSWgoLQ3JlYXRlRmx5ZXISKC5zZXR0aW5ncy5HcnBjU2V0",
-            "dGluZ3NGbHllckNyZWF0ZVJlcXVlc3QaIS5zZXR0aW5ncy5HcnBjU2V0dGlu",
-            "Z3NSZXNwb25zZURUTxJQCgtHZXRBbGxGbHllchIWLmdvb2dsZS5wcm90b2J1",
-            "Zi5FbXB0eRopLnNldHRpbmdzLkdycGNTZXR0aW5nc0ZseWVyR2V0QWxsUmVz",
-            "cG9uc2VCK6oCKExpYnMuQ29yZS5QdWJsaWMuUHJvdG9zLlNldHRpbmdzLlNl",
-            "cnZpY2ViBnByb3RvMw=="));
+            "ZXR0aW5nc0ZseWVyR2V0UmVzcG9uc2UimwEKIEdycGNTZXR0aW5nc0ZseWVy",
+            "R2V0Q2FyZFJlc3BvbnNlEgoKAmlkGAEgASgJEhEKCWltYWdlX3VybBgCIAEo",
+            "CRIVCg1lbnJvbG1lbnRfZmVlGAMgASgDEhEKCWlzX2FjdGl2ZRgEIAEoCBIu",
+            "CgpjcmVhdGVkX2F0GAUgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
+            "cCJhCiNHcnBjU2V0dGluZ3NGbHllckdldEFsbENhcmRSZXNwb25zZRI6CgZm",
+            "bHllcnMYASADKAsyKi5zZXR0aW5ncy5HcnBjU2V0dGluZ3NGbHllckdldENh",
+            "cmRSZXNwb25zZSKRBwoeR3JwY1NldHRpbmdzRmx5ZXJDcmVhdGVSZXF1ZXN0",
+            "EhEKCWltYWdlX3VybBgBIAEoCRIVCg1lbnJvbG1lbnRfZmVlGAIgASgDEhsK",
+            "E29uX3NpdGVfaW50ZW5zaXZlX2EYAyABKAMSHQoVb25fc2l0ZV9pbnRlbnNp",
+            "dmVfYV9hGAQgASgDEhsKE29uX3NpdGVfaW50ZW5zaXZlX2IYBSABKAMSHQoV",
+            "b25fc2l0ZV9pbnRlbnNpdmVfYl9iGAYgASgDEhsKE29uX3NpdGVfaW50ZW5z",
+            "aXZlX2MYByABKAMSGQoRb25fc2l0ZV9wcml2YXRlX2EYCCABKAMSGwoTb25f",
+            "c2l0ZV9wcml2YXRlX2FfYRgJIAEoAxIZChFvbl9zaXRlX3ByaXZhdGVfYhgK",
+            "IAEoAxIbChNvbl9zaXRlX3ByaXZhdGVfYl9iGAsgASgDEhkKEW9uX3NpdGVf",
+            "cHJpdmF0ZV9jGAwgASgDEhkKEW9uX3NpdGVfcmVndWxhcl9hGA0gASgDEhsK",
+            "E29uX3NpdGVfcmVndWxhcl9hX2EYDiABKAMSGQoRb25fc2l0ZV9yZWd1bGFy",
+            "X2IYDyABKAMSGwoTb25fc2l0ZV9yZWd1bGFyX2JfYhgQIAEoAxIZChFvbl9z",
+            "aXRlX3JlZ3VsYXJfYxgRIAEoAxIaChJvbmxpbmVfaW50ZW5zaXZlX2EYEiAB",
+            "KAMSHAoUb25saW5lX2ludGVuc2l2ZV9hX2EYEyABKAMSGgoSb25saW5lX2lu",
+            "dGVuc2l2ZV9iGBQgASgDEhwKFG9ubGluZV9pbnRlbnNpdmVfYl9iGBUgASgD",
+            "EhoKEm9ubGluZV9pbnRlbnNpdmVfYxgWIAEoAxIYChBvbmxpbmVfcHJpdmF0",
+            "ZV9hGBcgASgDEhoKEm9ubGluZV9wcml2YXRlX2FfYRgYIAEoAxIYChBvbmxp",
+            "bmVfcHJpdmF0ZV9iGBkgASgDEhoKEm9ubGluZV9wcml2YXRlX2JfYhgaIAEo",
+            "AxIYChBvbmxpbmVfcHJpdmF0ZV9jGBsgASgDEhgKEG9ubGluZV9yZWd1bGFy",
+            "X2EYHCABKAMSGgoSb25saW5lX3JlZ3VsYXJfYV9hGB0gASgDEhgKEG9ubGlu",
+            "ZV9yZWd1bGFyX2IYHiABKAMSGgoSb25saW5lX3JlZ3VsYXJfYl9iGB8gASgD",
+            "EhgKEG9ubGluZV9yZWd1bGFyX2MYICABKAMykwIKDFNldHRpbmdzR3JwYxJa",
+            "CgtDcmVhdGVGbHllchIoLnNldHRpbmdzLkdycGNTZXR0aW5nc0ZseWVyQ3Jl",
+            "YXRlUmVxdWVzdBohLnNldHRpbmdzLkdycGNTZXR0aW5nc1Jlc3BvbnNlRFRP",
+            "ElUKDEdldENhcmRGbHllchIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRotLnNl",
+            "dHRpbmdzLkdycGNTZXR0aW5nc0ZseWVyR2V0QWxsQ2FyZFJlc3BvbnNlElAK",
+            "C0dldEFsbEZseWVyEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5Gikuc2V0dGlu",
+            "Z3MuR3JwY1NldHRpbmdzRmx5ZXJHZXRBbGxSZXNwb25zZUIrqgIoTGlicy5D",
+            "b3JlLlB1YmxpYy5Qcm90b3MuU2V0dGluZ3MuU2VydmljZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -72,6 +79,8 @@ namespace Libs.Core.Public.Protos.Settings.Service {
             new pbr::GeneratedClrTypeInfo(typeof(global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerMonthlyTuitionResponse), global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerMonthlyTuitionResponse.Parser, new[]{ "Package", "Modality", "LevelA", "LevelAA", "LevelB", "LevelBB", "LevelC" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetResponse), global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetResponse.Parser, new[]{ "Id", "ImageUrl", "EnrolmentFee", "IsActive", "CreatedAt", "MonthlyTuitions" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllResponse), global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllResponse.Parser, new[]{ "Flyers" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetCardResponse), global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetCardResponse.Parser, new[]{ "Id", "ImageUrl", "EnrolmentFee", "IsActive", "CreatedAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse), global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse.Parser, new[]{ "Flyers" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerCreateRequest), global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerCreateRequest.Parser, new[]{ "ImageUrl", "EnrolmentFee", "OnSiteIntensiveA", "OnSiteIntensiveAA", "OnSiteIntensiveB", "OnSiteIntensiveBB", "OnSiteIntensiveC", "OnSitePrivateA", "OnSitePrivateAA", "OnSitePrivateB", "OnSitePrivateBB", "OnSitePrivateC", "OnSiteRegularA", "OnSiteRegularAA", "OnSiteRegularB", "OnSiteRegularBB", "OnSiteRegularC", "OnlineIntensiveA", "OnlineIntensiveAA", "OnlineIntensiveB", "OnlineIntensiveBB", "OnlineIntensiveC", "OnlinePrivateA", "OnlinePrivateAA", "OnlinePrivateB", "OnlinePrivateBB", "OnlinePrivateC", "OnlineRegularA", "OnlineRegularAA", "OnlineRegularB", "OnlineRegularBB", "OnlineRegularC" }, null, null, null, null)
           }));
     }
@@ -1303,6 +1312,548 @@ namespace Libs.Core.Public.Protos.Settings.Service {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class GrpcSettingsFlyerGetCardResponse : pb::IMessage<GrpcSettingsFlyerGetCardResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GrpcSettingsFlyerGetCardResponse> _parser = new pb::MessageParser<GrpcSettingsFlyerGetCardResponse>(() => new GrpcSettingsFlyerGetCardResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GrpcSettingsFlyerGetCardResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Libs.Core.Public.Protos.Settings.Service.SettingsReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrpcSettingsFlyerGetCardResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrpcSettingsFlyerGetCardResponse(GrpcSettingsFlyerGetCardResponse other) : this() {
+      id_ = other.id_;
+      imageUrl_ = other.imageUrl_;
+      enrolmentFee_ = other.enrolmentFee_;
+      isActive_ = other.isActive_;
+      createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrpcSettingsFlyerGetCardResponse Clone() {
+      return new GrpcSettingsFlyerGetCardResponse(this);
+    }
+
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private string id_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Id {
+      get { return id_; }
+      set {
+        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "image_url" field.</summary>
+    public const int ImageUrlFieldNumber = 2;
+    private string imageUrl_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ImageUrl {
+      get { return imageUrl_; }
+      set {
+        imageUrl_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "enrolment_fee" field.</summary>
+    public const int EnrolmentFeeFieldNumber = 3;
+    private long enrolmentFee_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long EnrolmentFee {
+      get { return enrolmentFee_; }
+      set {
+        enrolmentFee_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "is_active" field.</summary>
+    public const int IsActiveFieldNumber = 4;
+    private bool isActive_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool IsActive {
+      get { return isActive_; }
+      set {
+        isActive_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "created_at" field.</summary>
+    public const int CreatedAtFieldNumber = 5;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
+      get { return createdAt_; }
+      set {
+        createdAt_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GrpcSettingsFlyerGetCardResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GrpcSettingsFlyerGetCardResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Id != other.Id) return false;
+      if (ImageUrl != other.ImageUrl) return false;
+      if (EnrolmentFee != other.EnrolmentFee) return false;
+      if (IsActive != other.IsActive) return false;
+      if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Id.Length != 0) hash ^= Id.GetHashCode();
+      if (ImageUrl.Length != 0) hash ^= ImageUrl.GetHashCode();
+      if (EnrolmentFee != 0L) hash ^= EnrolmentFee.GetHashCode();
+      if (IsActive != false) hash ^= IsActive.GetHashCode();
+      if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (ImageUrl.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ImageUrl);
+      }
+      if (EnrolmentFee != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(EnrolmentFee);
+      }
+      if (IsActive != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(IsActive);
+      }
+      if (createdAt_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(CreatedAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (ImageUrl.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ImageUrl);
+      }
+      if (EnrolmentFee != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(EnrolmentFee);
+      }
+      if (IsActive != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(IsActive);
+      }
+      if (createdAt_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(CreatedAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Id.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+      }
+      if (ImageUrl.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ImageUrl);
+      }
+      if (EnrolmentFee != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(EnrolmentFee);
+      }
+      if (IsActive != false) {
+        size += 1 + 1;
+      }
+      if (createdAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CreatedAt);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GrpcSettingsFlyerGetCardResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Id.Length != 0) {
+        Id = other.Id;
+      }
+      if (other.ImageUrl.Length != 0) {
+        ImageUrl = other.ImageUrl;
+      }
+      if (other.EnrolmentFee != 0L) {
+        EnrolmentFee = other.EnrolmentFee;
+      }
+      if (other.IsActive != false) {
+        IsActive = other.IsActive;
+      }
+      if (other.createdAt_ != null) {
+        if (createdAt_ == null) {
+          CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        CreatedAt.MergeFrom(other.CreatedAt);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            ImageUrl = input.ReadString();
+            break;
+          }
+          case 24: {
+            EnrolmentFee = input.ReadInt64();
+            break;
+          }
+          case 32: {
+            IsActive = input.ReadBool();
+            break;
+          }
+          case 42: {
+            if (createdAt_ == null) {
+              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(CreatedAt);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            ImageUrl = input.ReadString();
+            break;
+          }
+          case 24: {
+            EnrolmentFee = input.ReadInt64();
+            break;
+          }
+          case 32: {
+            IsActive = input.ReadBool();
+            break;
+          }
+          case 42: {
+            if (createdAt_ == null) {
+              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(CreatedAt);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class GrpcSettingsFlyerGetAllCardResponse : pb::IMessage<GrpcSettingsFlyerGetAllCardResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GrpcSettingsFlyerGetAllCardResponse> _parser = new pb::MessageParser<GrpcSettingsFlyerGetAllCardResponse>(() => new GrpcSettingsFlyerGetAllCardResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GrpcSettingsFlyerGetAllCardResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Libs.Core.Public.Protos.Settings.Service.SettingsReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrpcSettingsFlyerGetAllCardResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrpcSettingsFlyerGetAllCardResponse(GrpcSettingsFlyerGetAllCardResponse other) : this() {
+      flyers_ = other.flyers_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GrpcSettingsFlyerGetAllCardResponse Clone() {
+      return new GrpcSettingsFlyerGetAllCardResponse(this);
+    }
+
+    /// <summary>Field number for the "flyers" field.</summary>
+    public const int FlyersFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetCardResponse> _repeated_flyers_codec
+        = pb::FieldCodec.ForMessage(10, global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetCardResponse.Parser);
+    private readonly pbc::RepeatedField<global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetCardResponse> flyers_ = new pbc::RepeatedField<global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetCardResponse>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetCardResponse> Flyers {
+      get { return flyers_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GrpcSettingsFlyerGetAllCardResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GrpcSettingsFlyerGetAllCardResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!flyers_.Equals(other.flyers_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= flyers_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      flyers_.WriteTo(output, _repeated_flyers_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      flyers_.WriteTo(ref output, _repeated_flyers_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += flyers_.CalculateSize(_repeated_flyers_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GrpcSettingsFlyerGetAllCardResponse other) {
+      if (other == null) {
+        return;
+      }
+      flyers_.Add(other.flyers_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            flyers_.AddEntriesFrom(input, _repeated_flyers_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            flyers_.AddEntriesFrom(ref input, _repeated_flyers_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GrpcSettingsFlyerCreateRequest : pb::IMessage<GrpcSettingsFlyerCreateRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1317,7 +1868,7 @@ namespace Libs.Core.Public.Protos.Settings.Service {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Libs.Core.Public.Protos.Settings.Service.SettingsReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Libs.Core.Public.Protos.Settings.Service.SettingsReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

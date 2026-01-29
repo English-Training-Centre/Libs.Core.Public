@@ -52,6 +52,8 @@ namespace Libs.Core.Public.Protos.Settings.Service {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse> __Marshaller_settings_GrpcSettingsFlyerGetAllCardResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllResponse> __Marshaller_settings_GrpcSettingsFlyerGetAllResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -61,6 +63,14 @@ namespace Libs.Core.Public.Protos.Settings.Service {
         "CreateFlyer",
         __Marshaller_settings_GrpcSettingsFlyerCreateRequest,
         __Marshaller_settings_GrpcSettingsResponseDTO);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse> __Method_GetCardFlyer = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetCardFlyer",
+        __Marshaller_google_protobuf_Empty,
+        __Marshaller_settings_GrpcSettingsFlyerGetAllCardResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllResponse> __Method_GetAllFlyer = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllResponse>(
@@ -82,6 +92,12 @@ namespace Libs.Core.Public.Protos.Settings.Service {
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsResponseDTO> CreateFlyer(global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerCreateRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse> GetCardFlyer(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -142,6 +158,26 @@ namespace Libs.Core.Public.Protos.Settings.Service {
         return CallInvoker.AsyncUnaryCall(__Method_CreateFlyer, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse GetCardFlyer(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetCardFlyer(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse GetCardFlyer(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetCardFlyer, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse> GetCardFlyerAsync(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetCardFlyerAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse> GetCardFlyerAsync(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetCardFlyer, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllResponse GetAllFlyer(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetAllFlyer(request, new grpc::CallOptions(headers, deadline, cancellationToken));
@@ -176,6 +212,7 @@ namespace Libs.Core.Public.Protos.Settings.Service {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_CreateFlyer, serviceImpl.CreateFlyer)
+          .AddMethod(__Method_GetCardFlyer, serviceImpl.GetCardFlyer)
           .AddMethod(__Method_GetAllFlyer, serviceImpl.GetAllFlyer).Build();
     }
 
@@ -187,6 +224,7 @@ namespace Libs.Core.Public.Protos.Settings.Service {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, SettingsGrpcBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_CreateFlyer, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerCreateRequest, global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsResponseDTO>(serviceImpl.CreateFlyer));
+      serviceBinder.AddMethod(__Method_GetCardFlyer, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllCardResponse>(serviceImpl.GetCardFlyer));
       serviceBinder.AddMethod(__Method_GetAllFlyer, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Libs.Core.Public.Protos.Settings.Service.GrpcSettingsFlyerGetAllResponse>(serviceImpl.GetAllFlyer));
     }
 
