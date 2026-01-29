@@ -23,6 +23,7 @@ message GrpcSettingsResponseDTO {
 message GrpcSettingsFlyerMonthlyTuitionResponse {
   string package = 1;
   string modality = 2;
+
   int64 level_a = 3;
   int64 level_a_a = 4;
   int64 level_b = 5;
@@ -36,6 +37,7 @@ message GrpcSettingsFlyerGetAllResponse {
     int64 enrolment_fee = 3;
     bool is_active = 4;
     google.protobuf.Timestamp created_at = 5;
+    
     repeated GrpcSettingsFlyerMonthlyTuitionResponse monthly_tuitions = 6;
 }
 
