@@ -1,2 +1,0 @@
-obj/Debug/net10.0/src/Protos/UploadFile.cs \
-obj/Debug/net10.0/src/Protos/UploadFileGrpc.cs: src/Protos/uploadFile.proto
