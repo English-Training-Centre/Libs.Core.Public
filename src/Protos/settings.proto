@@ -31,7 +31,7 @@ message GrpcSettingsFlyerMonthlyTuitionResponse {
   int64 level_c = 7;
 }
 
-message GrpcSettingsFlyerGetAllResponse {
+message GrpcSettingsFlyerGetResponse {
     string id = 1;
     string image_url = 2;
     int64 enrolment_fee = 3;
@@ -39,6 +39,10 @@ message GrpcSettingsFlyerGetAllResponse {
     google.protobuf.Timestamp created_at = 5;
     
     repeated GrpcSettingsFlyerMonthlyTuitionResponse monthly_tuitions = 6;
+}
+
+message GrpcSettingsFlyerGetAllResponse {    
+    repeated GrpcSettingsFlyerGetResponse flyers = 1;
 }
 
 
