@@ -2,13 +2,33 @@ syntax = "proto3";
 
 option csharp_namespace = "Libs.Core.Public.Protos.StudentService";
 
-package auth;
+package students;
+
+import "google/protobuf/timestamp.proto";
 
 service StudentGrpc {
-    rpc CreateStudent
+    rpc CreateStudent(GrpcStudentCreateRequest) returns (GrpcStudentCreateResponse);
 }
 
 message GrpcStudentCreateResponse {
-    bool isSuccess = 1;
+    bool is_success = 1;
     optional string message = 2;
+    optional string username = 3;
+    optional string password = 4;
+}
+
+message GrpcStudentCreateRequest {
+    string course_modality = 1;
+    string course_package = 2;
+    string course_level = 3;
+    string course_time = 4;
+    string student_role_id = 5;
+    string student_full_name = 6;
+    string student_gender = 7;
+    google.protobuf.Timestamp student_birth_date = 8;
+    optional string student_email = 9;
+    string student_phone_number = 10;
+    string student_residencial_address = 11;
+    optional string guardian_full_name = 12;
+    optional string guardian_phone_number = 13;
 }

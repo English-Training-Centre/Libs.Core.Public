@@ -12,7 +12,7 @@ public sealed record StudentGrpcCreateRequest
     DateTime StudentBirthDate,
     string? StudentEmail,
     string StudentPhoneNumber,       
-    string ResidencialAddress,
-    string GuardianFullName,
-    string GuardianPhoneNumber
+    string StudentResidencialAddress,
+    string? GuardianFullName,
+    string? GuardianPhoneNumber
 );
