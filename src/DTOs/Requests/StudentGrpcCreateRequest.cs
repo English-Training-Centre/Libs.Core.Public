@@ -6,6 +6,7 @@ public sealed record StudentGrpcCreateRequest
     string CoursePackage,
     string CourseLevel,
     string CourseTime,
+    Guid StudentRoleId,
     string StudentFullName,
     string StudentGender,
     DateTime StudentBirthDate,

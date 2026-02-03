@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "Libs.Core.Public.Protos.StudentService";
+
+package auth;
+
+service StudentGrpc {
+    rpc CreateStudent
+}
+
+message GrpcStudentCreateResponse {
+    bool isSuccess = 1;
+    optional string message = 2;
+}
